@@ -124,7 +124,6 @@ const femaleScore = countLetters(femaleName, "TRUE") + countLetters(femaleName, 
 
 const finalScore = maleScore + femaleScore;
 console.log(finalScore + "%");
-<<<<<<< HEAD:code
 
 console.log("Welcome new user");
 const city = prompt("What's the name of the city you grew up in?\n").trim();
@@ -137,8 +136,6 @@ function nameGen(){
     return `${city} ${petName}`;
 }
 console.log(`Your band name is ${nameGen()}`);
-=======
->>>>>>> fd7bc15110fbcbcb6a594e92cf38eaf963bed871:code.js
 
 //Project 3
 console.log("Welcome to Rock,Paper,Scissors ultimate");
